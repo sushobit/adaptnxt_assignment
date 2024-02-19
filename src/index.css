@@ -1,0 +1,39 @@
+html, #root{
+height: 100vh;
+}
+
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+  background-color:#e9edf0;
+  scrollbar-color: #a4a0a0 #f1f1f1; 
+
+}
+
+::-webkit-scrollbar {
+  width: thin;  /* Adjust the width as needed */
+}
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the scrollbar */
+}
+p{
+  font-size: 19px;
+}
+
+td{
+  text-align: center;
+  cursor: pointer;
+}
+th{
+  text-align: center;
+cursor: pointer;
+
+}
+button{
+  border-color: red;
+  border: none;
+  background-color: transparent;
+}
